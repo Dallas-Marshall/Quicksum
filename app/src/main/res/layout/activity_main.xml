@@ -123,6 +123,18 @@
 
         </TableRow>
 
+        <TableRow>
+
+            <Button
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="clearSumDisplay"
+                android:text="@string/clear"
+                android:textSize="42sp" />
+
+        </TableRow>
     </TableLayout>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
